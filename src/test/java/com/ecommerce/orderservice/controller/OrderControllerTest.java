@@ -3,7 +3,7 @@ package com.ecommerce.orderservice.controller;
 import com.ecommerce.orderservice.dto.OrderRequestDTO;
 import com.ecommerce.orderservice.dto.OrderResponseDTO;
 import com.ecommerce.orderservice.service.OrderService;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import tools.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
